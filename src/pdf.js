@@ -21,7 +21,7 @@ var pdfjsVersion =
 var pdfjsBuild =
   typeof PDFJSDev !== 'undefined' ? PDFJSDev.eval('BUNDLE_BUILD') : void 0;
 
-var pdfjsSharedUtil = require('./shared/util.js');
+var pdfjsSharedUtil = require('https://raw.githubusercontent.com/Skarrn/E3mozilpdfjs/master/src/shared/util.js');
 var pdfjsDisplayGlobal = require('./display/global.js');
 var pdfjsDisplayAPI = require('./display/api.js');
 var pdfjsDisplayTextLayer = require('./display/text_layer.js');
